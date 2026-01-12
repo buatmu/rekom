@@ -74,14 +74,14 @@
     const linkShopee = "https://s.shopee.co.id/9AIJpDiBOr"; // Ganti dengan link Shopee kamu
     const linkDownload = "https://drive.google.com/file/d/0B8iS96LKl2peSjN3Ny01TjBPSXM/view?usp=sharing&resourcekey=0-aT9BOqTmLV-LagZkaXSdPw"; // Ganti dengan link Download kamu
 
-	function jalankanRedirect() {
-		// 1. Membuka Shopee di tab baru (Ini akan berhasil karena dipicu KLIK)
-		window.open(linkShopee, '_blank');
-		
-		// 2. Mengalihkan tab saat ini ke download
+	function jalankanRedirect() {		
+		// 1. Mengalihkan tab saat ini ke download
 		window.location.href = linkDownload;
+		// 2. Membuka Shopee di tab baru (Ini akan berhasil karena dipicu KLIK)
+		window.open(linkShopee, '_blank');		
 	}
 </script>
 
 </body>
+
 </html>
